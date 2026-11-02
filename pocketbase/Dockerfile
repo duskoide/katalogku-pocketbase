@@ -11,4 +11,4 @@ RUN apk add --no-cache ca-certificates wget unzip \
     $$ rm /tmp/pb.zip
 
 EXPOSE 8090
-CMD ["pocketbase", "serve", "--http=0.0.0.0:8090", --dir=/pb_data]
+CMD ["pocketbase", "serve", "--http=0.0.0.0:8090", "--dir=/pb_data"]

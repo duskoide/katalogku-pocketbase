@@ -11,7 +11,7 @@ services:
     ports:
       - "8091:8090" # dashboard: port 8091
 
-  account_service:
+  account-service:
     build: ./pocketbase
     restart: unless-stopped
     volumes:
